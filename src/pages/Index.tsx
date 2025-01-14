@@ -19,10 +19,9 @@ export default function Index() {
 
   return (
     <main>
-      <For each={colors()}>
-        {(color) => <div>{color.name}</div>}
-      </For>
-      {/* <ColorChart colors={colors()} /> */}
+      <h1>Isaac&apos;s Color Chart</h1>
+      <ColorChart colors={colors()} />
+      <h2>Yes, I did name these myself</h2>
     </main>
   );
 }
